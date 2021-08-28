@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/passenger_list"
+            android:icon="@drawable/ic_list"
+            android:title="Passenger List" />
+        <item
+            android:id="@+id/qr_code"
+            android:icon="@drawable/ic_qr_code"
+            android:title="QR Code" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout" />
+    </group>
+</menu>
